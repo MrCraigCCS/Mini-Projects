@@ -16,13 +16,13 @@ for (int i = 0; i < 10; ++i)
     Console.WriteLine($"You rolled a {playerRandomNum}");
 
     Console.Write(".");
-    System.Threading.Thread.Sleep(250);
+    Thread.Sleep(250);
     Console.Write(".");
-    System.Threading.Thread.Sleep(250);
+    Thread.Sleep(250);
     Console.Write(".");
-    System.Threading.Thread.Sleep(250);
+    Thread.Sleep(250);
     Console.Write(".");
-    System.Threading.Thread.Sleep(250);
+    Thread.Sleep(250);
 
     enemyRandomNum = random.Next(1, 7);
     Console.WriteLine($"\nEnemy rolled a {enemyRandomNum}");
