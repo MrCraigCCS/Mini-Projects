@@ -15,11 +15,17 @@ for (int i = 0; i < 10; ++i)
     playerRandomNum = random.Next(1, 7);
     Console.WriteLine($"You rolled a {playerRandomNum}");
 
-    Console.WriteLine(". . . . ");
-    System.Threading.Thread.Sleep(1000);
+    Console.Write(".");
+    System.Threading.Thread.Sleep(250);
+    Console.Write(".");
+    System.Threading.Thread.Sleep(250);
+    Console.Write(".");
+    System.Threading.Thread.Sleep(250);
+    Console.Write(".");
+    System.Threading.Thread.Sleep(250);
 
     enemyRandomNum = random.Next(1, 7);
-    Console.WriteLine($"Enemy rolled a {enemyRandomNum}");
+    Console.WriteLine($"\nEnemy rolled a {enemyRandomNum}");
 
     if (playerRandomNum > enemyRandomNum)
     {
